@@ -21,6 +21,10 @@ gem 'turbolinks', '~> 5'
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'factory_girl_rails'
+  gem 'guard'
+  gem 'guard-minitest'
+  gem 'guard-rails'
+  gem 'guard-rubocop'
   gem 'mocha'
   gem 'rubocop'
 end
