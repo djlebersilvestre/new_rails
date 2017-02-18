@@ -9,6 +9,7 @@ Style/FrozenStringLiteralComment:
 
 AllCops:
   Exclude:
+    - 'script/**/*'
     - 'config/**/*'
     - 'bin/**/*'
     - 'db/**/*'
