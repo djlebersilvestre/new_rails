@@ -7,20 +7,19 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 
 * rails 5: because we want new stuff
 * minitest: just an option for test suite, and we love to test
-* rubocop: because we like to follow standards from the community and share code with other devs
+* rubocop: because we like to follow community standards and share good code with other devs
 * rubocop run on commit: because we don't want to push bad code to the repo (and we don't want to run manually before every commit)
 * guard: because we want immediate feedback about our code changes (tests failing? rubocop failing?)
 * JsonRestController: because we like to DRY our json controllers and keep a standard for the API
-* Foo scaffold: because we have bad memory and having some sample code help us remember a lot of things (nested resources, migrations, indexes, validations, test helpers, tableless model, ...)
+* Foo examples: because we have bad memory and having some sample code help us remember a lot of things (nested resources, migrations, indexes, validations, test helpers, ...)
 * awesome-print: because we are happy when it's easy to read an indented hash on console
 * finally, to keep improving and tunning our Rails projects adopting and creating best practices and stop wasting time redoing things
 
 ## TODO:
 
-* Tableless Foo example
+* General exception handler in ApplicationController. Same for JsonRestController
 * ActiveJob Foo example
-* General exception handler in application controller?
-* Dive deeper in rack-mini-profiler
+* Tableless Foo example
 * More details / howto regarding each cool thing listed
 * Install and configure simple-cov and other metric gems
 * Add badges to this readme to check build status and other things like gemminasium - check brl-to-cad
@@ -36,13 +35,16 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 * Rubocop script inside git-hooks seems useless - review it
 * Review heartcheck for standard HTTP monitoring
 * Tunning: cache for rails to reduce DB hitting and other caching strategies - nice article: https://www.speedshop.co/2015/07/15/the-complete-guide-to-rails-caching.html
+* Use AMS so we have cache advantage
 * Update "Things you may want to cover"
 * Rails txt logger using something like lograge in prod and other non local envs
-* Use memcached in production for caching
+* Use memcached / redis in production for caching
 * Review stale? usage to incorporate in JsonRestController and improve performance with automated caching strategy
 * Testing Json error responses
 * Add pagination and rate limit
-* Check API version for Rails 5 and create another base project API focused - good article https://blog.codeship.com/building-a-json-api-with-rails-5/
+* Check API version for Rails 5 and create another base project API focused - good articles: https://blog.codeship.com/building-a-json-api-with-rails-5/ | https://blog.codeship.com/building-a-json-api-with-rails-5/
+* Dive deeper in rack-mini-profiler
+* Regenerate secrets configs for each new project
 
 Things you may want to cover:
 
