@@ -17,11 +17,11 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 
 ## TODO:
 
-* Improve Foo example using the API approach with nested resources
 * Tableless Foo example 
 * Tunning: cache for rails to reduce DB hitting
 * More details / howto regarding each cool thing listed
 * Install and configure simple-cov and other metric gems
+* Add badges to this readme to check build status and other things like gemminasium
 * Try to incorporate metrics into guard or git-hooks
 * Log solution detached from the code. Something configurable (think about Sonnet's challenge)
 * Gems for versioning and soft-delete (check is paranoid still a good choice)
@@ -31,6 +31,7 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 * Setup base Angular 2 front-end
 * Run guard on factory girl changes
 * Rubocop script inside git-hooks seems useless - review it
+* Review heartcheck for standard HTTP monitoring
 * Update "Things you may want to cover"
 
 Things you may want to cover:
