@@ -1,5 +1,9 @@
 # new_lib
 
+[![Code Climate](https://codeclimate.com/github/djlebersilvestre/new_rails/badges/gpa.svg)](https://codeclimate.com/github/djlebersilvestre/new_rails)
+[![Test Coverage](https://codeclimate.com/github/djlebersilvestre/new_rails/badges/coverage.svg)](https://codeclimate.com/github/djlebersilvestre/new_rails/coverage)
+[![Issue Count](https://codeclimate.com/github/djlebersilvestre/new_rails/badges/issue_count.svg)](https://codeclimate.com/github/djlebersilvestre/new_rails)
+
 A base rails project with some dependencies installed and configured to ease the development and speed up the bootstrap.
 The idea is to have a skeleton for new projects and keep the tech stack up to date.
 
@@ -14,10 +18,6 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 * Foo examples: because we have bad memory and having some sample code help us remember a lot of things (nested resources, migrations, indexes, validations, test helpers, ...)
 * awesome-print: because we are happy when it's easy to read an indented hash on console
 * finally, to keep improving and tunning our Rails projects adopting and creating best practices and stop wasting time redoing things
-
-[![Code Climate](https://codeclimate.com/github/djlebersilvestre/new_rails/badges/gpa.svg)](https://codeclimate.com/github/djlebersilvestre/new_rails)
-[![Test Coverage](https://codeclimate.com/github/djlebersilvestre/new_rails/badges/coverage.svg)](https://codeclimate.com/github/djlebersilvestre/new_rails/coverage)
-[![Issue Count](https://codeclimate.com/github/djlebersilvestre/new_rails/badges/issue_count.svg)](https://codeclimate.com/github/djlebersilvestre/new_rails)
 
 ## TODO:
 
