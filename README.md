@@ -24,6 +24,7 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 * Add badges to this readme to check build status and other things like gemminasium - check brl-to-cad (bundler-audit, brakeman ...)
 * Simplecov should break tests if coverage drops bellow 95%
 * General exception handler in ApplicationController. Same for JsonRestController
+* Explore more code climate
 * ActiveJob Foo example
 * Tableless Foo example
 * More details / howto regarding each cool thing listed
