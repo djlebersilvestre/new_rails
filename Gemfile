@@ -21,6 +21,7 @@ gem 'turbolinks', '~> 5'
 group :development, :test do
   gem 'awesome_print'
   gem 'byebug', platform: :mri
+  gem 'codeclimate-test-reporter', '~> 1.0.0'
   gem 'factory_girl_rails'
   gem 'guard'
   gem 'guard-minitest'
@@ -28,6 +29,7 @@ group :development, :test do
   gem 'guard-rubocop'
   gem 'mocha'
   gem 'rubocop'
+  gem 'simplecov'
 end
 
 group :development do

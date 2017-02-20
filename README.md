@@ -15,14 +15,19 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 * awesome-print: because we are happy when it's easy to read an indented hash on console
 * finally, to keep improving and tunning our Rails projects adopting and creating best practices and stop wasting time redoing things
 
+[![Code Climate](https://codeclimate.com/github/djlebersilvestre/new_rails/badges/gpa.svg)](https://codeclimate.com/github/djlebersilvestre/new_rails)
+[![Test Coverage](https://codeclimate.com/github/djlebersilvestre/new_rails/badges/coverage.svg)](https://codeclimate.com/github/djlebersilvestre/new_rails/coverage)
+[![Issue Count](https://codeclimate.com/github/djlebersilvestre/new_rails/badges/issue_count.svg)](https://codeclimate.com/github/djlebersilvestre/new_rails)
+
 ## TODO:
 
+* Add badges to this readme to check build status and other things like gemminasium - check brl-to-cad (bundler-audit, brakeman ...)
+* Simplecov should break tests if coverage drops bellow 95%
 * General exception handler in ApplicationController. Same for JsonRestController
 * ActiveJob Foo example
 * Tableless Foo example
 * More details / howto regarding each cool thing listed
-* Install and configure simple-cov and other metric gems
-* Add badges to this readme to check build status and other things like gemminasium - check brl-to-cad
+* Install and configure other metric gems?
 * Try to incorporate metrics into guard or git-hooks
 * Log solution detached from the code. Something configurable (think about Sonnet's challenge)
 * Same Log idea but applied to low-level caching - AOP?
