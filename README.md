@@ -9,18 +9,20 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 
 ## Cool things by using this base project (and reasons why):
 
-* rails 5: because we want new stuff
-* minitest: just an option for test suite, and we love to test
-* rubocop: because we like to follow community standards and share good code with other devs
-* rubocop run on commit: because we don't want to push bad code to the repo (and we don't want to run manually before every commit)
-* guard: because we want immediate feedback about our code changes (tests failing? rubocop failing?)
-* JsonRestController: because we like to DRY our json controllers and keep a standard for the API
+* Rails 5: because we want new stuff
+* RVM: because we like to switch between projects without worrying with rubies and gems
+* Minitest: just an option for test suite, and we love to test
+* Rubocop: because we like to follow community standards and share good code with other devs
+* Rubocop run on commit: because we don't want to push bad code to the repo (and we don't want to run manually before every commit)
+* Guard: because we want immediate feedback about our code changes (tests failing? rubocop failing? coverage low?)
+* JsonRestController: because we like to DRY our json controllers and keep a standard for json APIs
 * Foo examples: because we have bad memory and having some sample code help us remember a lot of things (nested resources, migrations, indexes, validations, test helpers, ...)
 * awesome-print: because we are happy when it's easy to read an indented hash on console
-* finally, to keep improving and tunning our Rails projects adopting and creating best practices and stop wasting time redoing things
+* finally, to keep improving and tunning our Rails projects adopting and creating best practices and stop wasting time redoing things. GTD fast and KISS \o/
 
-## TODO:
+## TODOs so we don't lose track of our short-term goals:
 
+* Startup shell script to install all dependencies
 * Add badges to this readme to check build status and other things like gemminasium - check brl-to-cad (bundler-audit, brakeman ...)
 * Simplecov should break tests if coverage drops bellow 95%
 * General exception handler in ApplicationController. Same for JsonRestController
@@ -51,6 +53,7 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 * Check API version for Rails 5 and create another base project API focused - good articles: https://blog.codeship.com/building-a-json-api-with-rails-5/ | https://blog.codeship.com/building-a-json-api-with-rails-5/
 * Dive deeper in rack-mini-profiler
 * Regenerate secrets configs for each new project
+* Create docker files and images
 
 Things you may want to cover:
 
