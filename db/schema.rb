@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170218054749) do
+ActiveRecord::Schema.define(version: 20170220153431) do
+
+  create_table "foo_dependants", force: :cascade do |t|
+    t.integer  "foo_id",     null: false
+    t.string   "category",   null: false
+    t.float    "value",      null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["foo_id", "category"], name: "index_foo_dependants_on_foo_id_and_category", unique: true
+    t.index ["foo_id"], name: "index_foo_dependants_on_foo_id"
+  end
 
   create_table "foos", force: :cascade do |t|
     t.string   "name",       null: false

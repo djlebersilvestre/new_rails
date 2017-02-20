@@ -14,6 +14,7 @@ class FoosControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'should create foo' do
+    @foo.name = 'Non unique name'
     assert_difference('Foo.count') do
       post foos_url(format: :json), params: { foo: { name: @foo.name } }
     end

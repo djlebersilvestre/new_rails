@@ -25,6 +25,14 @@ class ActiveSupport::TestCase
     )
   end
 
+  def foo_dependant_json(foo_dependant)
+    default_json(foo_dependant).merge(
+      foo_id: foo_dependant.foo_id,
+      category: foo_dependant.category,
+      value: foo_dependant.value
+    )
+  end
+
   private
 
   def default_json(model)
