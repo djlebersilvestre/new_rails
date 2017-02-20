@@ -6,7 +6,7 @@ class FooDependantsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'should get index' do
-    get foo_dependants_url(format: :json)
+    get foo_foo_dependants_url(@foo_dependant.foo, format: :json)
     assert_response :success
 
     foo_dependants = parse_json_response
@@ -23,7 +23,7 @@ class FooDependantsControllerTest < ActionDispatch::IntegrationTest
       }
     }
     assert_difference('FooDependant.count') do
-      post foo_dependants_url(format: :json), params: params
+      post foo_foo_dependants_url(@foo_dependant.foo, format: :json), params: params
     end
 
     assert_response :success
