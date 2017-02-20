@@ -12,7 +12,7 @@ class JsonRestController < ApplicationController
     model = model_class.new(model_params)
     assign_model_instance(model)
 
-    render_json(model.save)
+    render_json(model.save, :created)
   end
 
   def update
@@ -34,12 +34,13 @@ class JsonRestController < ApplicationController
     raise "Must implement abstract method #{__method__}"
   end
 
-  def render_json(succeeded)
+  def render_json(succeeded, status = :ok)
     model = model_instance
 
     respond_to do |format|
       if succeeded && model.errors.blank?
-        format.json { render :show, status: :created }
+        # TODO: test return status codes
+        format.json { render :show, status: status }
       else
         format.json { render json: model.errors, status: :unprocessable_entity }
       end
