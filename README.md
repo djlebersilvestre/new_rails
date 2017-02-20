@@ -29,6 +29,7 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 * Ransack or other filtering gems
 * Minitest reporter using awesome print when we have failures (comparing hashed is a pain)
 * Setup base Angular 2 front-end
+* Run guard on factory girl changes
 
 Things you may want to cover:
 

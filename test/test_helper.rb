@@ -21,7 +21,8 @@ class ActiveSupport::TestCase
 
   def foo_json(foo)
     default_json(foo).merge(
-      name: foo.name
+      name: foo.name,
+      foo_dependants: foo.foo_dependants.map { |o| foo_dependant_json(o) }
     )
   end
 
