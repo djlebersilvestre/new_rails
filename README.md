@@ -1,4 +1,4 @@
-# new_lib
+# New Rails Skeleton App
 
 [![Code Climate](https://codeclimate.com/github/djlebersilvestre/new_rails/badges/gpa.svg)](https://codeclimate.com/github/djlebersilvestre/new_rails)
 [![Test Coverage](https://codeclimate.com/github/djlebersilvestre/new_rails/badges/coverage.svg)](https://codeclimate.com/github/djlebersilvestre/new_rails/coverage)
