@@ -6,43 +6,45 @@ class FoosControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'should get index' do
-    get foos_url
+    get foos_url(format: :json)
     assert_response :success
-  end
 
-  test 'should get new' do
-    get new_foo_url
-    assert_response :success
+    foos = parse_json_response
+    foos.each { |o| assert_equal foo_json(@foo), o }
   end
 
   test 'should create foo' do
     assert_difference('Foo.count') do
-      post foos_url, params: { foo: { name: @foo.name } }
+      post foos_url(format: :json), params: { foo: { name: @foo.name } }
     end
 
-    assert_redirected_to foo_url(Foo.last)
+    assert_response :success
+    assert_equal foo_json(Foo.last), parse_json_response
   end
 
   test 'should show foo' do
-    get foo_url(@foo)
+    get foo_url(@foo, format: :json)
     assert_response :success
-  end
-
-  test 'should get edit' do
-    get edit_foo_url(@foo)
-    assert_response :success
+    assert_equal foo_json(@foo), parse_json_response
   end
 
   test 'should update foo' do
-    patch foo_url(@foo), params: { foo: { name: @foo.name } }
-    assert_redirected_to foo_url(@foo)
+    @foo.name = 'another name'
+
+    patch foo_url(@foo, format: :json), params: { foo: { name: @foo.name } }
+    assert_response :success
+
+    updated_foo = Foo.find(@foo.id)
+    @foo.updated_at = updated_foo.updated_at
+    assert_equal foo_json(@foo), parse_json_response
   end
 
   test 'should destroy foo' do
     assert_difference('Foo.count', -1) do
-      delete foo_url(@foo)
+      delete foo_url(@foo, format: :json)
     end
 
-    assert_redirected_to foos_url
+    assert_response :success
+    assert_equal foo_json(@foo), parse_json_response
   end
 end

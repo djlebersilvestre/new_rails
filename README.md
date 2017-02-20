@@ -11,7 +11,7 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 * rubocop run on commit: because we don't want to push bad code to the repo (and we don't want to run manually before every commit)
 * guard: because we want immediate feedback about our code changes (tests failing? rubocop failing?)
 * JsonRestController: because we like to DRY our json controllers and keep a standard for the API
-* Foo scaffold: because we have bad memory and having some sample code help us remember a lot of things (nested resources, migrations, indexes, validations, test helpers...)
+* Foo scaffold: because we have bad memory and having some sample code help us remember a lot of things (nested resources, migrations, indexes, validations, test helpers, tableless model, ...)
 * awesome-print: because we are happy when it's easy to read an indented hash on console
 * finally, to keep improving and tunning our Rails projects adopting and creating best practices and stop wasting time redoing things
 
