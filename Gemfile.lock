@@ -40,6 +40,7 @@ GEM
       tzinfo (~> 1.1)
     arel (7.1.4)
     ast (2.3.0)
+    awesome_print (1.7.0)
     builder (3.2.3)
     byebug (9.0.6)
     coderay (1.1.1)
@@ -213,6 +214,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   byebug
   coffee-rails (~> 4.2)
   factory_girl_rails

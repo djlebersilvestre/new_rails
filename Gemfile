@@ -19,6 +19,7 @@ gem 'redis', '~> 3.0'
 gem 'turbolinks', '~> 5'
 
 group :development, :test do
+  gem 'awesome_print'
   gem 'byebug', platform: :mri
   gem 'factory_girl_rails'
   gem 'guard'
