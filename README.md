@@ -40,6 +40,8 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 * Rails txt logger using something like lograge in prod and other non local envs
 * Use memcached in production for caching
 * Review stale? usage to incorporate in JsonRestController and improve performance with automated caching strategy
+* Testing Json error responses
+* Add pagination and rate limit
 
 Things you may want to cover:
 

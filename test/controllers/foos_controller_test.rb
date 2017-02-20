@@ -6,7 +6,7 @@ class FoosControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'should get index' do
-    get foos_url(format: :json)
+    get foos_url
     assert_response :success
 
     foos = parse_json_response
@@ -16,7 +16,7 @@ class FoosControllerTest < ActionDispatch::IntegrationTest
   test 'should create foo' do
     @foo.name = 'Non unique name'
     assert_difference('Foo.count') do
-      post foos_url(format: :json), params: { foo: { name: @foo.name } }
+      post foos_url, params: { foo: { name: @foo.name } }
     end
 
     assert_response :success
@@ -24,7 +24,7 @@ class FoosControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'should show foo' do
-    get foo_url(@foo, format: :json)
+    get foo_url(@foo)
     assert_response :success
     assert_equal foo_json(@foo), parse_json_response
   end
@@ -32,7 +32,7 @@ class FoosControllerTest < ActionDispatch::IntegrationTest
   test 'should update foo' do
     @foo.name = 'another name'
 
-    patch foo_url(@foo, format: :json), params: { foo: { name: @foo.name } }
+    patch foo_url(@foo), params: { foo: { name: @foo.name } }
     assert_response :success
 
     updated_foo = Foo.find(@foo.id)
@@ -42,7 +42,7 @@ class FoosControllerTest < ActionDispatch::IntegrationTest
 
   test 'should destroy foo' do
     assert_difference('Foo.count', -1) do
-      delete foo_url(@foo, format: :json)
+      delete foo_url(@foo)
     end
 
     assert_response :success

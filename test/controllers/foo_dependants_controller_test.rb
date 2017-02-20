@@ -6,7 +6,7 @@ class FooDependantsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'should get index' do
-    get foo_foo_dependants_url(@foo_dependant.foo, format: :json)
+    get foo_foo_dependants_url(@foo_dependant.foo)
     assert_response :success
 
     foo_dependants = parse_json_response
@@ -23,7 +23,7 @@ class FooDependantsControllerTest < ActionDispatch::IntegrationTest
       }
     }
     assert_difference('FooDependant.count') do
-      post foo_foo_dependants_url(@foo_dependant.foo, format: :json), params: params
+      post foo_foo_dependants_url(@foo_dependant.foo), params: params
     end
 
     assert_response :success
@@ -31,7 +31,7 @@ class FooDependantsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'should show foo_dependant' do
-    get foo_dependant_url(@foo_dependant, format: :json)
+    get foo_dependant_url(@foo_dependant)
     assert_response :success
     assert_equal foo_dependant_json(@foo_dependant), parse_json_response
   end
@@ -47,7 +47,7 @@ class FooDependantsControllerTest < ActionDispatch::IntegrationTest
         value: @foo_dependant.value
       }
     }
-    patch foo_dependant_url(@foo_dependant, format: :json), params: params
+    patch foo_dependant_url(@foo_dependant), params: params
     assert_response :success
 
     updated_foo_dep = FooDependant.find(@foo_dependant.id)
@@ -57,7 +57,7 @@ class FooDependantsControllerTest < ActionDispatch::IntegrationTest
 
   test 'should destroy foo_dependant' do
     assert_difference('FooDependant.count', -1) do
-      delete foo_dependant_url(@foo_dependant, format: :json)
+      delete foo_dependant_url(@foo_dependant)
     end
 
     assert_response :success
