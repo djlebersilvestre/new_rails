@@ -30,6 +30,8 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 * Minitest reporter using awesome print when we have failures (comparing hashed is a pain)
 * Setup base Angular 2 front-end
 * Run guard on factory girl changes
+* Rubocop script inside git-hooks seems useless - review it
+* Update "Things you may want to cover"
 
 Things you may want to cover:
 
