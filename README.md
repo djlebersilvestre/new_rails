@@ -18,6 +18,7 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 ## TODO:
 
 * Improve Foo example using the API approach with nested resources
+* Tableless Foo example 
 * Tunning: cache for rails to reduce DB hitting
 * More details / howto regarding each cool thing listed
 * Install and configure simple-cov and other metric gems
