@@ -1,5 +1,6 @@
 # TODO: write unit test with fake controller
 class JsonRestController < ApplicationController
+  protect_from_forgery with: :null_session
   before_action :find_model, only: [:show, :update, :destroy]
 
   def index

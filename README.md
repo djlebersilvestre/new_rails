@@ -42,6 +42,7 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 * Review stale? usage to incorporate in JsonRestController and improve performance with automated caching strategy
 * Testing Json error responses
 * Add pagination and rate limit
+* Check API version for Rails 5 and create another base project API focused - good article https://blog.codeship.com/building-a-json-api-with-rails-5/
 
 Things you may want to cover:
 
