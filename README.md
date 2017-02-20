@@ -17,13 +17,16 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 
 ## TODO:
 
-* Tableless Foo example 
-* Tunning: cache for rails to reduce DB hitting
+* Tableless Foo example
+* ActiveJob Foo example
+* General exception handler in application controller?
+* Dive deeper in rack-mini-profiler
 * More details / howto regarding each cool thing listed
 * Install and configure simple-cov and other metric gems
-* Add badges to this readme to check build status and other things like gemminasium
+* Add badges to this readme to check build status and other things like gemminasium - check brl-to-cad
 * Try to incorporate metrics into guard or git-hooks
 * Log solution detached from the code. Something configurable (think about Sonnet's challenge)
+* Same Log idea but applied to low-level caching - AOP?
 * Gems for versioning and soft-delete (check is paranoid still a good choice)
 * Setup devise with declarative authorization (or similar)
 * Ransack or other filtering gems
@@ -32,7 +35,11 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 * Run guard on factory girl changes
 * Rubocop script inside git-hooks seems useless - review it
 * Review heartcheck for standard HTTP monitoring
+* Tunning: cache for rails to reduce DB hitting and other caching strategies - nice article: https://www.speedshop.co/2015/07/15/the-complete-guide-to-rails-caching.html
 * Update "Things you may want to cover"
+* Rails txt logger using something like lograge in prod and other non local envs
+* Use memcached in production for caching
+* Review stale? usage to incorporate in JsonRestController and improve performance with automated caching strategy
 
 Things you may want to cover:
 
