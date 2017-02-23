@@ -5,6 +5,9 @@ require 'mocha/mini_test'
 
 require 'simplecov'
 SimpleCov.start
+SimpleCov.minimum_coverage 90
+SimpleCov.minimum_coverage_by_file 80
+SimpleCov.maximum_coverage_drop 5
 
 # TODO: move json helpers to concerns
 class ActiveSupport::TestCase
