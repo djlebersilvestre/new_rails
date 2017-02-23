@@ -3,6 +3,7 @@
 [![Code Climate](https://codeclimate.com/github/djlebersilvestre/new_rails/badges/gpa.svg)](https://codeclimate.com/github/djlebersilvestre/new_rails)
 [![Test Coverage](https://codeclimate.com/github/djlebersilvestre/new_rails/badges/coverage.svg)](https://codeclimate.com/github/djlebersilvestre/new_rails/coverage)
 [![Issue Count](https://codeclimate.com/github/djlebersilvestre/new_rails/badges/issue_count.svg)](https://codeclimate.com/github/djlebersilvestre/new_rails)
+[![Dependency Status](https://gemnasium.com/djlebersilvestre/new_rails.png)](https://gemnasium.com/djlebersilvestre/new_rails)
 
 A base rails project with some dependencies installed and configured to ease the development and speed up the bootstrap.
 The idea is to have a skeleton for new projects and keep the tech stack up to date.
