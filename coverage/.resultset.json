@@ -1,7 +1,7 @@
 {
   "MiniTest": {
     "coverage": {
-      "/home/dani/programming/shopify/new_rails/test/controllers/foo_dependants_controller_test.rb": [
+      "/home/dani/programming/personal/new_rails/test/controllers/foo_dependants_controller_test.rb": [
         1,
         null,
         1,
@@ -69,7 +69,7 @@
         null,
         null
       ],
-      "/home/dani/programming/shopify/new_rails/test/models/foo_test.rb": [
+      "/home/dani/programming/personal/new_rails/test/models/foo_test.rb": [
         1,
         null,
         1,
@@ -105,7 +105,7 @@
         null,
         null
       ],
-      "/home/dani/programming/shopify/new_rails/test/models/foo_dependant_test.rb": [
+      "/home/dani/programming/personal/new_rails/test/models/foo_dependant_test.rb": [
         1,
         null,
         1,
@@ -167,27 +167,37 @@
         null,
         null
       ],
-      "/home/dani/programming/shopify/new_rails/app/models/foo.rb": [
+      "/home/dani/programming/personal/new_rails/app/models/foo_dependant.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/home/dani/programming/personal/new_rails/app/models/application_record.rb": [
+        null,
+        1,
+        1,
+        null
+      ],
+      "/home/dani/programming/personal/new_rails/app/models/foo.rb": [
         1,
         1,
         null,
         1,
         null
       ],
-      "/home/dani/programming/shopify/new_rails/app/models/application_record.rb": [
-        null,
-        1,
-        1,
-        null
-      ],
-      "/home/dani/programming/shopify/new_rails/app/controllers/foos_controller.rb": [
+      "/home/dani/programming/personal/new_rails/app/controllers/foos_controller.rb": [
         1,
         1,
         2,
         null,
         null
       ],
-      "/home/dani/programming/shopify/new_rails/app/controllers/json_rest_controller.rb": [
+      "/home/dani/programming/personal/new_rails/app/controllers/json_rest_controller.rb": [
         null,
         1,
         1,
@@ -264,35 +274,25 @@
         null,
         null
       ],
-      "/home/dani/programming/shopify/new_rails/app/controllers/application_controller.rb": [
+      "/home/dani/programming/personal/new_rails/app/controllers/application_controller.rb": [
         1,
         1,
         null
       ],
-      "/home/dani/programming/shopify/new_rails/app/helpers/application_helper.rb": [
+      "/home/dani/programming/personal/new_rails/app/helpers/application_helper.rb": [
         null,
         1,
         null
       ],
-      "/home/dani/programming/shopify/new_rails/app/helpers/foo_dependants_helper.rb": [
+      "/home/dani/programming/personal/new_rails/app/helpers/foo_dependants_helper.rb": [
         1,
         null
       ],
-      "/home/dani/programming/shopify/new_rails/app/helpers/foos_helper.rb": [
+      "/home/dani/programming/personal/new_rails/app/helpers/foos_helper.rb": [
         1,
         null
       ],
-      "/home/dani/programming/shopify/new_rails/app/models/foo_dependant.rb": [
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/home/dani/programming/shopify/new_rails/app/controllers/foo_dependants_controller.rb": [
+      "/home/dani/programming/personal/new_rails/app/controllers/foo_dependants_controller.rb": [
         1,
         1,
         2,
@@ -300,6 +300,6 @@
         null
       ]
     },
-    "timestamp": 1487627921
+    "timestamp": 1487815093
   }
 }
