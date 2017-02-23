@@ -20,7 +20,7 @@ gem 'uglifier', '>= 1.3.0'
 group :development, :test do
   gem 'awesome_print'
   gem 'byebug', platform: :mri
-  gem 'codeclimate-test-reporter', '~> 1.0.0'
+  gem 'codeclimate-test-reporter', '~> 1.0'
   gem 'factory_girl_rails'
   gem 'guard'
   gem 'guard-minitest'
@@ -32,10 +32,10 @@ group :development, :test do
 end
 
 group :development do
-  gem 'listen', '~> 3.0.5'
+  gem 'listen', '~> 3.0'
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'web-console', '>= 3.3.0'
+  gem 'spring-watcher-listen', '~> 2.0'
+  gem 'web-console', '>= 3.3'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
