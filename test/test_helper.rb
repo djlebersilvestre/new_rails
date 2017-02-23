@@ -3,11 +3,15 @@ require File.expand_path('../../config/environment', __FILE__)
 require 'rails/test_help'
 require 'mocha/mini_test'
 
-require 'simplecov'
-SimpleCov.start
-SimpleCov.minimum_coverage 90
-SimpleCov.minimum_coverage_by_file 80
-SimpleCov.maximum_coverage_drop 5
+# We want to run coverage only on all test, not on a single test
+files_to_test = ARGV.grep(/test\.rb/)
+if files_to_test.blank? || files_to_test.size > 1
+  require 'simplecov'
+  SimpleCov.start
+  SimpleCov.minimum_coverage 90
+  SimpleCov.minimum_coverage_by_file 80
+  SimpleCov.maximum_coverage_drop 5
+end
 
 # TODO: move json helpers to concerns
 class ActiveSupport::TestCase
