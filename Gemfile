@@ -19,10 +19,12 @@ gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
   gem 'awesome_print'
+  gem 'brakeman'
   gem 'byebug', platform: :mri
   gem 'codeclimate-test-reporter', '~> 1.0'
   gem 'factory_girl_rails'
   gem 'guard'
+  gem 'guard-brakeman'
   gem 'guard-minitest'
   gem 'guard-rails'
   gem 'guard-rubocop'

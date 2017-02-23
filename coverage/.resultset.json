@@ -167,14 +167,11 @@
         null,
         null
       ],
-      "/home/dani/programming/personal/new_rails/app/models/foo_dependant.rb": [
+      "/home/dani/programming/personal/new_rails/app/models/foo.rb": [
         1,
         1,
         null,
         1,
-        1,
-        1,
-        null,
         null
       ],
       "/home/dani/programming/personal/new_rails/app/models/application_record.rb": [
@@ -183,14 +180,7 @@
         1,
         null
       ],
-      "/home/dani/programming/personal/new_rails/app/models/foo.rb": [
-        1,
-        1,
-        null,
-        1,
-        null
-      ],
-      "/home/dani/programming/personal/new_rails/app/controllers/foo_dependants_controller.rb": [
+      "/home/dani/programming/personal/new_rails/app/controllers/foos_controller.rb": [
         1,
         1,
         2,
@@ -292,7 +282,17 @@
         1,
         null
       ],
-      "/home/dani/programming/personal/new_rails/app/controllers/foos_controller.rb": [
+      "/home/dani/programming/personal/new_rails/app/models/foo_dependant.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/home/dani/programming/personal/new_rails/app/controllers/foo_dependants_controller.rb": [
         1,
         1,
         2,
@@ -300,6 +300,6 @@
         null
       ]
     },
-    "timestamp": 1487815351
+    "timestamp": 1487816397
   }
 }
