@@ -24,23 +24,17 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 ## TODOs so we don't lose track of our short-term goals:
 
 * Startup shell script to install all dependencies
-* Add badges to this readme to check build status and other things like gemminasium - check brl-to-cad (bundler-audit, brakeman ...)
-* Simplecov should break tests if coverage drops bellow 95%
 * General exception handler in ApplicationController. Same for JsonRestController
-* Explore more code climate
 * ActiveJob Foo example
 * Tableless Foo example
-* More details / howto regarding each cool thing listed
-* Install and configure other metric gems?
-* Try to incorporate metrics into guard or git-hooks
 * Log solution detached from the code. Something configurable (think about Sonnet's challenge)
 * Same Log idea but applied to low-level caching - AOP?
-* Gems for versioning and soft-delete (check is paranoid still a good choice)
+* Explore more code climate
+* More details / howto regarding each cool thing listed
 * Setup devise with declarative authorization (or similar)
+* Setup base Angular 2 front-end
 * Ransack or other filtering gems
 * Minitest reporter using awesome print when we have failures (comparing hashed is a pain)
-* Setup base Angular 2 front-end
-* Run guard on factory girl changes
 * Rubocop script inside git-hooks seems useless - review it
 * Review heartcheck for standard HTTP monitoring
 * Tunning: cache for rails to reduce DB hitting and other caching strategies - nice article: https://www.speedshop.co/2015/07/15/the-complete-guide-to-rails-caching.html
@@ -53,7 +47,7 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 * Add pagination and rate limit
 * Check API version for Rails 5 and create another base project API focused - good articles: https://blog.codeship.com/building-a-json-api-with-rails-5/ | https://blog.codeship.com/building-a-json-api-with-rails-5/
 * Dive deeper in rack-mini-profiler
-* Regenerate secrets configs for each new project
+* Regenerate secrets configs for each new project - replace new_rails by the project name, maybe use thor
 * Create docker files and images
 
 Things you may want to cover:
