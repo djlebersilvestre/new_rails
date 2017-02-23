@@ -23,7 +23,6 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 
 ## TODOs so we don't lose track of our short-term goals:
 
-* Rubocop script inside git-hooks seems useless - review it
 * Startup shell script to install all dependencies
 * Testing Json error responses
 * Review heartcheck for standard HTTP monitoring
