@@ -5,8 +5,14 @@
 [![Issue Count](https://codeclimate.com/github/djlebersilvestre/new_rails/badges/issue_count.svg)](https://codeclimate.com/github/djlebersilvestre/new_rails)
 [![Dependency Status](https://gemnasium.com/djlebersilvestre/new_rails.png)](https://gemnasium.com/djlebersilvestre/new_rails)
 
-A base rails project with some dependencies installed and configured to ease the development and speed up the bootstrap.
+This is a base rails project with some dependencies installed and configured to ease the development and speed up the bootstrap.
 The idea is to have a skeleton for new projects and keep the tech stack up to date.
+
+To start using just jump into project's root directory and run the command below in your terminal:
+```bash
+./setup.sh
+```
+This should take care of all dependencies for you ;)
 
 ## Cool things by using this base project (and reasons why):
 
@@ -15,15 +21,14 @@ The idea is to have a skeleton for new projects and keep the tech stack up to da
 * Minitest: just an option for test suite, and we love to test
 * Rubocop: because we like to follow community standards and share good code with other devs
 * Rubocop run on commit: because we don't want to push bad code to the repo (and we don't want to run manually before every commit)
-* Guard: because we want immediate feedback about our code changes (tests failing? rubocop failing? coverage low?)
+* Guard: because we want immediate feedback about our code changes (tests failing? rubocop failing? coverage low? brakeman warnings?)
 * JsonRestController: because we like to DRY our json controllers and keep a standard for json APIs
 * Foo examples: because we have bad memory and having some sample code help us remember a lot of things (nested resources, migrations, indexes, validations, test helpers, ...)
-* awesome-print: because we are happy when it's easy to read an indented hash on console
-* finally, to keep improving and tunning our Rails projects adopting and creating best practices and stop wasting time redoing things. GTD fast and KISS \o/
+* Awesome-print: because we are happy when it's easy to read an indented hash on console
+* Finally, to keep improving and tunning our Rails projects adopting and creating best practices and stop wasting time redoing things. GTD fast and KISS \o/
 
 ## TODOs so we don't lose track of our short-term goals:
 
-* Startup shell script to install all dependencies
 * Testing Json error responses
 * Review heartcheck for standard HTTP monitoring
 * General exception handler in ApplicationController. Same for JsonRestController
