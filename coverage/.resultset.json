@@ -1,7 +1,7 @@
 {
   "MiniTest": {
     "coverage": {
-      "/home/dani/programming/personal/new_rails/test/controllers/foo_dependants_controller_test.rb": [
+      "/Users/daniel.silvestre/src/personal/new_rails/test/controllers/foos_controller_test.rb": [
         1,
         null,
         1,
@@ -20,13 +20,6 @@
         1,
         1,
         1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
         1,
         null,
         null,
@@ -42,14 +35,6 @@
         null,
         1,
         1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         1,
         1,
@@ -69,43 +54,7 @@
         null,
         null
       ],
-      "/home/dani/programming/personal/new_rails/test/models/foo_test.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/home/dani/programming/personal/new_rails/test/models/foo_dependant_test.rb": [
+      "/Users/daniel.silvestre/src/personal/new_rails/test/models/foo_dependant_test.rb": [
         1,
         null,
         1,
@@ -167,37 +116,63 @@
         null,
         null
       ],
-      "/home/dani/programming/personal/new_rails/app/models/foo.rb": [
+      "/Users/daniel.silvestre/src/personal/new_rails/test/models/foo_test.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/daniel.silvestre/src/personal/new_rails/app/models/foo.rb": [
         1,
         1,
         null,
         1,
         null
       ],
-      "/home/dani/programming/personal/new_rails/app/models/application_record.rb": [
+      "/Users/daniel.silvestre/src/personal/new_rails/app/models/application_record.rb": [
         null,
         1,
         1,
         null
       ],
-      "/home/dani/programming/personal/new_rails/app/models/foo_dependant.rb": [
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/home/dani/programming/personal/new_rails/app/controllers/foos_controller.rb": [
+      "/Users/daniel.silvestre/src/personal/new_rails/app/controllers/foos_controller.rb": [
         1,
         1,
         2,
         null,
         null
       ],
-      "/home/dani/programming/personal/new_rails/app/controllers/json_rest_controller.rb": [
+      "/Users/daniel.silvestre/src/personal/new_rails/app/controllers/json_rest_controller.rb": [
         null,
         1,
         1,
@@ -274,25 +249,35 @@
         null,
         null
       ],
-      "/home/dani/programming/personal/new_rails/app/controllers/application_controller.rb": [
+      "/Users/daniel.silvestre/src/personal/new_rails/app/controllers/application_controller.rb": [
         1,
         1,
         null
       ],
-      "/home/dani/programming/personal/new_rails/app/helpers/application_helper.rb": [
+      "/Users/daniel.silvestre/src/personal/new_rails/app/helpers/application_helper.rb": [
         null,
         1,
         null
       ],
-      "/home/dani/programming/personal/new_rails/app/helpers/foo_dependants_helper.rb": [
+      "/Users/daniel.silvestre/src/personal/new_rails/app/helpers/foo_dependants_helper.rb": [
         1,
         null
       ],
-      "/home/dani/programming/personal/new_rails/app/helpers/foos_helper.rb": [
+      "/Users/daniel.silvestre/src/personal/new_rails/app/helpers/foos_helper.rb": [
         1,
         null
       ],
-      "/home/dani/programming/personal/new_rails/app/controllers/foo_dependants_controller.rb": [
+      "/Users/daniel.silvestre/src/personal/new_rails/app/models/foo_dependant.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/daniel.silvestre/src/personal/new_rails/app/controllers/foo_dependants_controller.rb": [
         1,
         1,
         2,
@@ -300,6 +285,6 @@
         null
       ]
     },
-    "timestamp": 1489018101
+    "timestamp": 1490191787
   }
 }
